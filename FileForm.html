@@ -1,0 +1,17 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form method="POST" action="FileForm.php" enctype="multipart/form-data">
+            <label for="fileName">File name: </label>
+            <input type="text" name="fileName" id="fileName" />
+            <br/>
+            <label for="myFile">File to upload: </label>
+            <input id="myFile" style="cursor:pointer;" type="file" name="fileToSave" />
+            <br/>
+            <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+            <input type="submit" style="cursor:pointer;" value="Enviar">
+        </form>
+    </body>
+</html>
